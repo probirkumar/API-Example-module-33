@@ -11,11 +11,16 @@
 
 <body>
     <header>
-        <h1>Exploring Food</h1>
+        <h1 class="text-center text-warning">Exploring Food</h1>
     </header>
-    <main>
+    <main class="container">
         <section>
-            <h2>My Meals</h2>
+            <h2 class="text-danger">Searching Here</h2>
+            <input id="search-field" class="px-3 me-2" type="text" name="" placeholder="Search Your Food">
+            <button onclick="searchingFood()" class="btn btn-primary">Search</button>
+        </section>
+        <section>
+            <h2 class="mt-4">My Meals</h2>
             <div id="meals-container" class="row row-cols-1 row-cols-md-3 g-4">
                 
               </div>
