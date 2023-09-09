@@ -13,17 +13,28 @@
     <header>
         <h1 class="text-center text-warning">Exploring Food</h1>
     </header>
-    <main class="container">
+    <main class="container border border-2 py-5">
         <section>
+            <div id="detail-container" style="width: 25rem;">
+                
+            </div>
+        </section>
+
+        <!--  -->
+
+        <section class="text-center">
             <h2 class="text-danger">Searching Here</h2>
             <input id="search-field" class="px-3 me-2" type="text" name="" placeholder="Search Your Food">
             <button onclick="searchingFood()" class="btn btn-primary">Search</button>
         </section>
+
+        <!--  -->
+
         <section>
-            <h2 class="mt-4">My Meals</h2>
+            <h2>My Meals</h2>
             <div id="meals-container" class="row row-cols-1 row-cols-md-3 g-4">
-                
-              </div>
+
+            </div>
         </section>
     </main>
 
